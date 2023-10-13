@@ -1886,3 +1886,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .avatar-box img{
   border-radius: 10px;
 }
+.testimonials-avatar-box{
+  border: none;
+  box-shadow: 2px 2px 25px  gray;
+}
