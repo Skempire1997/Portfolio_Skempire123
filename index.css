@@ -3,9 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
 
 
 
@@ -1889,4 +1886,49 @@ textarea.form-input::-webkit-resizer { display: none; }
 .testimonials-avatar-box{
   border: none;
   box-shadow: 2px 2px 25px  gray;
+}
+.rsm{
+  margin-top: 30px;
+  text-align: center;
+  height: 35px;
+  width: 100px;
+  color: black;
+  background-color: lightgrey;
+  border: none;
+  font-weight: bolder;
+  margin-left: 50px;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.rsm:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px royalblue;
+  color: royalblue;
+  background-color: white;
+  border: 1px solid royalblue;
+}
+.ic12{
+  font-size: 25px;
+  transition-duration: 1s;
+}
+.ic12:hover{
+  color: gold;
+  text-shadow: 0px 0px 20px lightyellow;
+}
+.d-block{
+  border-radius: 15px;
+ border: 1px dotted whitesmoke;
+ border-radius: 10px;
+  height: 350px;
+  width: 450px;
+  transition-duration: 2s;
+}
+.d-block:hover{
+
+  transform: scale(1.2);
+
+}
+.carousel-caption{
+  color: whitesmoke;
+  text-shadow: 1px 1px 20px indianred;
 }
