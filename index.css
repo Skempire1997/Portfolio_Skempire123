@@ -1,12 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -462,6 +453,7 @@ main {
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
+  height: 60px;
 }
 
 .navbar-list {
@@ -1462,13 +1454,20 @@ main {
 }
 .avatar-box{
   border: 1px dotted whitesmoke;
-}
-.avatar-box img{
   border-radius: 10px;
+
 }
 .testimonials-avatar-box{
-  border: none;
-  box-shadow: 2px 2px 25px  gray;
+  box-shadow: 0PX 0PX 2PX lightgrey;
+  padding: 2px;
+}
+.testimonials-avatar-box img{
+  padding: 2px;
+  transition-duration: 1s;
+  border-radius: 30px;
+}
+.testimonials-avatar-box img:hover{
+  border: 0.5px dotted whitesmoke;
 }
 .rsm{
   margin-top: 30px;
